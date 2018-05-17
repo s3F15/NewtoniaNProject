@@ -148,4 +148,9 @@ Jupiter
 Saturn
 Uranus
 Neptune</string>
+    <string name="password_update_button_text">Update</string>
+    <string name="new_password_hint_text">Enter your New Password</string>
+    <string name="old_password_hint_text">Enter your Old Password</string>
+    <string name="email_hint_text">Enter your Email Id</string>
+    <string name="update_password_text">Update Password</string>
 </resources>

@@ -44,7 +44,7 @@
             android:id="@+id/ecosystemsvid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/round_text"
+            android:background="@drawable/round_button"
             android:text="Video"
             android:textColor="@color/common_google_signin_btn_text_dark_default"
             android:textStyle="bold" />
