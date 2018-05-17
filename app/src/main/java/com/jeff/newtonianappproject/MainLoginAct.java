@@ -12,6 +12,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
@@ -49,7 +50,7 @@ public class MainLoginAct extends AppCompatActivity {
         if (user != null) {
             finish();
 
-            startActivity(new Intent(MainLoginAct.this,MainMenu.class));
+            startActivity(new Intent(MainLoginAct.this, MainMenu.class));
         }
 
         Login.setOnClickListener(new View.OnClickListener() {
@@ -72,26 +73,30 @@ public class MainLoginAct extends AppCompatActivity {
             }
         });
     }
-private  void validate(String userName, String userPassword){
+
+    private void validate(String userName, String userPassword) {
 
         progressDialog.setMessage("Be the next Sir Isaac Newton!");
 
         firebaseAuth.signInWithEmailAndPassword(userName, userPassword).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
-                if (task.isSuccessful()){
+                if (task.isSuccessful()) {
                     progressDialog.dismiss();
-                    Toast.makeText(MainLoginAct.this,"Log in Successfully!", Toast.LENGTH_SHORT).show();
+                    Log.d("Test", task.getResult().toString());
+                    Toast.makeText(MainLoginAct.this, "Log in Successfully!", Toast.LENGTH_SHORT).show();
                     startActivity(new Intent(MainLoginAct.this, MainMenu.class));
-                }
-                else{
-                    Log.d("Test",task.getResult().toString());
-                    Toast.makeText(MainLoginAct.this,"Log in Failed!", Toast.LENGTH_SHORT).show();
+                } else {
                     counter--;
-                    if (counter == 0){
+                    if (counter == 0) {
                         Login.setEnabled(false);
                     }
                 }
+            }
+        }).addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception e) {
+                Toast.makeText(getBaseContext(), e.getMessage(), Toast.LENGTH_LONG).show();
             }
         });
     }
