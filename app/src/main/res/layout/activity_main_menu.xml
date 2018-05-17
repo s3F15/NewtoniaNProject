@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainMenu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/logoutbtn"
+            android:layout_width="153dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:background="@drawable/round_text"
+            android:text="Logout"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Topics"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/animalbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            app:srcCompat="@drawable/animalmenu" />
+
+        <ImageButton
+            android:id="@+id/ecobtn"
+            android:layout_width="352dp"
+            android:layout_height="165dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ecosystemmenu" />
+
+        <ImageButton
+            android:id="@+id/gravbtn"
+            android:layout_width="355dp"
+            android:layout_height="159dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/gravitymenu" />
+
+        <ImageButton
+            android:id="@+id/hebtn"
+            android:layout_width="357dp"
+            android:layout_height="162dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/humanevolution" />
+
+        <ImageButton
+            android:id="@+id/planetsbtn"
+            android:layout_width="356dp"
+            android:layout_height="162dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/rsz_planetmenu" />
+
+        <ImageButton
+            android:id="@+id/quizbtn"
+            android:layout_width="355dp"
+            android:layout_height="163dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/rsz_quiz" />
+
+        <ImageButton
+            android:id="@+id/abtusbtn"
+            android:layout_width="355dp"
+            android:layout_height="164dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/rsz_aboutus" />
+
+        <Button
+            android:id="@+id/changepasswordbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Change Password"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="Deactivate"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

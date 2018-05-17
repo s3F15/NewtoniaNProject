@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">NewtoniaNAppProject</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_animal_view">AnimalView</string>
+    <string name="title_activity_topics_tab">TopicsTab</string>
+    <string name="animal_world_def">animal a living thing such as a dog, cow, or tiger, but not an insect, fish, or bird
+farm animals such as cows, sheep, and pigs
+People are becoming more concerned about animal welfare.
+creature /ˈkriːtʃə $ -ər/ an animal – used especially when describing a particular animal’s characteristics or when referring to animals generally
+The cheetah is a magnificent creature.
+all the living creatures in the sea
+beast an animal, especially a large or dangerous one
+To most people, lions are savage beasts.
+a wild beast
+living thing an animal considered as one of a group of things that grow and then die, including humans and plants
+The only living things we saw were dogs and cats.
+species /ˈspiːʃiːz/ a group of animals whose members are similar and can breed together to produce young animals
+Seven species of birds of prey have been observed.
+mammal an animal that drinks milk from its mother’s body when it is young
+Humans, dogs, and whales are all mammals.
+vertebrate a living creature that has a backbone
+viruses that affect chickens, monkeys, and most other vertebrates
+invertebrate a living creature that does not have a backbone
+earthworms and other small invertebrates</string>
+    <string name="human_world_def">Human evolution is the evolutionary process that led to the emergence of anatomically modern humans, beginning with the evolutionary history of primates – in particular genus Homo –
+        and leading to the emergence of Homo sapiens as a distinct species of the hominid family, the great apes. This process involved the gradual development of traits such as human bipedalism and language.[1]
+    55 million years ago (MYA)
+First primitive primates evolve
+
+8 – 6 MYA
+First gorillas evolve. Later, chimp and human lineages diverge
+
+5.8 MYA
+Orrorin tugenensis, oldest human ancestor thought to have walked on two legs
+
+5.5 MYA
+Ardipithecus, early “proto-human” shares traits with chimps and gorillas, and is forest-dwelling
+
+4 MYA
+Australopithecines appear. They have brains no larger than a chimpanzee’s – with a volume around 400 – 500 cm3 -, but walk upright on two legs. First human ancestors to live on the savannah
+
+3.2 MYA
+Lucy, famous specimen of Australopithecus afarensis, lives near what is now Hadar, Ethiopia
+
+2.7 MYA
+Paranthropus, lives in woods and grasslands, has massive jaws for chewing on roots and vegetation. Becomes extinct 1.2 MYA
+
+2.5 MYA
+Homo habilis appears. Its face protrudes less than earlier hominids, but still retains many ape features. Has a brain volume of around 600 cm3
+
+Hominids start to use stone tools regularly, created by splitting pebbles – this starts Oldowan tradition of toolmaking, which last a million years
+
+Some hominids develop meat-rich diets as scavengers, the extra energy may have favoured the evolution of larger brains
+
+2 MYA
+Evidence of Homo ergaster, with a brain volume of up to 850 cm3, in Africa
+
+1.8 – 1.5 MYA
+Homo erectus is found in Asia. First true hunter-gatherer ancestor, and also first to have migrated out of Africa in large numbers. It attains a brain size of around 1000 cm3
+
+1.6 MYA
+Possible first sporadic use of fire suggested by discoloured sediments in Koobi Fora, Kenya. More convincing evidence of charred wood and stone tools is found in Israel and dated to 780,000 years ago
+
+More complex Acheulean stone tools start to be produced and are the dominant technology until 100,000 years ago
+
+600,000 YA
+Homo Heidelbergensis lives in Africa and Europe. Similar brain capacity to modern humans
+
+500,000 YA
+Earliest evidence of purpose-built shelters – wooden huts – are known from sites near Chichibu, Japan
+
+400,000 YA
+Early humans begin to hunt with spears
+
+325,000 YA
+Oldest surviving early human footprints are left by three people who scrambled down the slopes of a volcano in Italy
+
+280,000 YA
+First complex stone blades and grinding stones
+
+230,000 YA
+Neanderthals appear and are found across Europe, from Britain in the west to Iran in the east, until they become extinct with the advent of modern humans 28,000 years ago
+
+195,000 YA
+Our own species Homo sapiens appears on the scene – and shortly after begins to migrate across Asia and Europe. Oldest modern human remains are two skulls found in Ethiopia that date to this period. Average human brain volume is 1350 cm3
+
+170,000 YA
+Mitochondrial Eve, the direct ancestor to all living people today, may have been living in Africa
+
+150,000 YA
+Humans possibly capable of speech. 100,000-year-old shell jewellery suggests that that people develop complex speech and symbolism
+
+140,000 YA
+First evidence of long-distance trade
+
+110,000 YA
+Earliest beads – made from ostrich eggshells – and jewellery
+
+50,000 YA
+“Great leap forward”: human culture starts to change much more rapidly than before; people begin burying their dead ritually; create clothes from animal hides; and develop complex hunting techniques, such as pit-traps.
+
+Colonisation of Australia by modern humans
+
+33,000 YA
+Oldest cave art. Later, Stone Age artisans create the spectacular murals at Lascaux and Chauvet in France
+
+Homo erectus dies out in Asia – replaced by modern man
+
+18,000 YA
+Homo Floresiensis, “Hobbit” people, found on the Indonesian island of Flores. They stand just over 1 metre tall, and have brains similar in size to chimpanzees, yet have advanced stone tools
+
+12,000 YA
+Modern people reach the Americas
+
+10,000 YA
+Agriculture develops and spread. First villages. Possible domestication of dogs
+
+5,500 YA
+Stone Age ends and Bronze Age begins. Humans begin to smelt and work copper and tin, and use them in place of stone implements
+
+5,000 YA
+Earliest known writing
+
+4,000 to 3,500 BC
+The Sumerians of Mesopotamia develop the world’s first civilisation</string>
+    <string name="ecosystems_world_def">An ecosystem consists of a community of organisms together with their physical environment.
+Ecosystems can be of different sizes and can be marine, aquatic, or terrestrial. Broad categories of terrestrial ecosystems are called biomes.
+In ecosystems, both matter and energy are conserved. Energy flows through the system—usually from light to heat—while matter is recycled.
+Ecosystems with higher biodiversity tend to be more stable with greater resistance and resilience in the face of disturbances, disruptive events.</string>
+    <string name="gravity_world_def"> is the force by which a planet or other body draws objects toward its center. The force of gravity keeps all of the planets in orbit around the sun.Gravity is what holds the planets in orbit around the sun and what keeps the moon in orbit around Earth. The gravitational pull of the moon pulls the seas towards it, causing the ocean tides. Gravity creates stars and planets by pulling together the material from which they are made.
+
+Gravity not only pulls on mass but also on light. Albert Einstein discovered this principle. If you shine a flashlight upwards, the light will grow imperceptibly redder as gravity pulls it. You can't see the change with your eyes, but scientists can measure it.
+
+Black holes pack so much mass into such a small volume that their gravity is strong enough to keep anything, even light, from escaping.</string>
+
+    <string name="planets_world_def"> is an astronomical body orbiting a star or stellar remnant that is massive enough to be rounded by its own gravity, is not massive enough to cause thermonuclear fusion, and has cleared its neighbouring region of planetesimals.[a][1][2]
+    The Sun
+Mercury
+Venus
+Earth
+Mars
+Jupiter
+Saturn
+Uranus
+Neptune</string>
+</resources>
